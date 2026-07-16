@@ -1,3 +1,14 @@
 [gd_scene format=3 uid="uid://bbc2ccjxeyjql"]
 
+[ext_resource type="Script" uid="uid://dqiwop5b1kurg" path="res://Scripts/player.gd" id="1_v0iea"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cvnsp"]
+radius = 13.0
+height = 56.0
+
 [node name="Player" type="CharacterBody2D" unique_id=213299348]
+script = ExtResource("1_v0iea")
+metadata/_edit_horizontal_guides_ = [63.0]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=138500597]
+shape = SubResource("CapsuleShape2D_cvnsp")
