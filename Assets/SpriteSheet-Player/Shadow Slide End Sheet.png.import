@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dycefqfnitd5a"
-path="res://.godot/imported/Jump-Sheet.png-034f16bf13b6907310ea34078dbfe3ce.ctex"
+uid="uid://4iydb32fhssp"
+path="res://.godot/imported/Shadow Slide End Sheet.png-1549dc8b73252c222ca7d73580383085.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Jump-Sheet.png"
-dest_files=["res://.godot/imported/Jump-Sheet.png-034f16bf13b6907310ea34078dbfe3ce.ctex"]
+source_file="res://Assets/SpriteSheet-Player/Shadow Slide End Sheet.png"
+dest_files=["res://.godot/imported/Shadow Slide End Sheet.png-1549dc8b73252c222ca7d73580383085.ctex"]
 
 [params]
 

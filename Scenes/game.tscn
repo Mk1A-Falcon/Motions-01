@@ -4,4 +4,6 @@
 
 [node name="Game" type="Node2D" unique_id=2141064385]
 
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=74891400]
+
 [node name="Player" parent="." unique_id=213299348 instance=ExtResource("1_ebmjs")]
