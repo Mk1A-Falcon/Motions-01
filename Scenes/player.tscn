@@ -2,45 +2,11 @@
 
 [ext_resource type="Script" uid="uid://dqiwop5b1kurg" path="res://Scripts/player.gd" id="1_v0iea"]
 [ext_resource type="Texture2D" uid="uid://db2tniflmthle" path="res://Assets/SpriteSheet-Player/Player Run-Sheet.png" id="2_cvnsp"]
+[ext_resource type="Texture2D" uid="uid://4iydb32fhssp" path="res://Assets/SpriteSheet-Player/Shadow Slide End Sheet.png" id="3_6t5aa"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cvnsp"]
 radius = 5.0
 height = 26.0
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6t5aa"]
-load_path = "res://.godot/imported/Jump-Sheet.png-034f16bf13b6907310ea34078dbfe3ce.ctex"
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_6t5aa"]
-atlas = SubResource("CompressedTexture2D_6t5aa")
-region = Rect2(0, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_vgqql"]
-atlas = SubResource("CompressedTexture2D_6t5aa")
-region = Rect2(48, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_fkybt"]
-atlas = SubResource("CompressedTexture2D_6t5aa")
-region = Rect2(96, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_x3wgy"]
-atlas = SubResource("CompressedTexture2D_6t5aa")
-region = Rect2(144, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_3smsa"]
-atlas = SubResource("CompressedTexture2D_6t5aa")
-region = Rect2(192, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_8erm5"]
-atlas = SubResource("CompressedTexture2D_6t5aa")
-region = Rect2(240, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_f1ek2"]
-atlas = SubResource("CompressedTexture2D_6t5aa")
-region = Rect2(288, 0, 48, 48)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_tx1dd"]
-atlas = SubResource("CompressedTexture2D_6t5aa")
-region = Rect2(336, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gymyn"]
 atlas = ExtResource("2_cvnsp")
@@ -78,37 +44,40 @@ region = Rect2(336, 0, 48, 48)
 atlas = ExtResource("2_cvnsp")
 region = Rect2(384, 0, 48, 48)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_vgqql"]
+atlas = ExtResource("3_6t5aa")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fkybt"]
+atlas = ExtResource("3_6t5aa")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x3wgy"]
+atlas = ExtResource("3_6t5aa")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3smsa"]
+atlas = ExtResource("3_6t5aa")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8erm5"]
+atlas = ExtResource("3_6t5aa")
+region = Rect2(192, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1ek2"]
+atlas = ExtResource("3_6t5aa")
+region = Rect2(240, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tx1dd"]
+atlas = ExtResource("3_6t5aa")
+region = Rect2(288, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l6n3p"]
+atlas = ExtResource("3_6t5aa")
+region = Rect2(336, 0, 48, 48)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_v0iea"]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_6t5aa")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_vgqql")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_fkybt")
-}, {
-"duration": 1.2,
-"texture": SubResource("AtlasTexture_x3wgy")
-}, {
-"duration": 1.2,
-"texture": SubResource("AtlasTexture_3smsa")
-}, {
-"duration": 1.1,
-"texture": SubResource("AtlasTexture_8erm5")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_f1ek2")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_tx1dd")
-}],
-"loop": true,
-"name": &"Jump",
-"speed": 16.0
-}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gymyn")
@@ -136,6 +105,30 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fs7ks")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vgqql")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fkybt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x3wgy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3smsa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8erm5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f1ek2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tx1dd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l6n3p")
 }],
 "loop": true,
 "name": &"Run",
@@ -152,5 +145,5 @@ shape = SubResource("CapsuleShape2D_cvnsp")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1759867053]
 position = Vector2(-1, -5)
 sprite_frames = SubResource("SpriteFrames_v0iea")
-animation = &"Jump"
-autoplay = "Jump"
+animation = &"Run"
+autoplay = "Run"

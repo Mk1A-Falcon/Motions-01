@@ -7,3 +7,8 @@
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=74891400]
 
 [node name="Player" parent="." unique_id=213299348 instance=ExtResource("1_ebmjs")]
+
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=1090516215]
+position = Vector2(87, -48)
+enabled = false
+zoom = Vector2(3.4, 3.4)
